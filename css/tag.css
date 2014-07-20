@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+}
+
+body {
+    background-image: url(../img/bg.png);
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar-thumb{
+   background-color:#000;
+   height:50px;
+}  
+
+::-webkit-scrollbar-thumb:hover{
+   background-color:#111;
+   height:50px;
+}
+ 
+::-webkit-scrollbar {
+   width:15px;
+   height:15px;
+}  
+ 
+::-webkit-scrollbar-track-piece{
+    border:none;
+}
+
+::-webkit-scrollbar-thumb:active{
+    height:50px;
+    background-color:#111;
+}

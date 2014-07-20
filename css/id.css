@@ -1,0 +1,37 @@
+#front-img {
+    position: absolute;
+    left: -224px;
+    top: -220px;
+    background-image: url(../img/dec.png);
+    width: 448px;
+    height: 392px;
+    cursor: pointer;
+}
+
+#sketch-result {
+    display: block;
+    margin: 0 auto;
+    max-width: 960px;
+    cursor: pointer;
+}
+
+#status {
+    position: fixed;
+    font-size: 20px;
+    left: 0;
+    bottom: 0;
+    padding: 5px;
+    background-color: #000;
+    width: 100%;
+    color: #eee;
+}
+
+#status:hover {
+    background-color: #111;
+}
+
+@media screen and (max-width: 960px) {
+    #sketch-result {
+        max-width: 100%;
+    }
+}
